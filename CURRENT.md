@@ -1,27 +1,30 @@
 # Current Session Context
 
 ## Status
-Ready to begin Stage 1.
+Stage 1 — IN PROGRESS 🔵
 
-## What We're Working On
-**Stage 1 — Foundation**
-- Create new Supabase project
-- Build full DB schema (MVP tables)
-- Set up RLS policies
-- Configure auth (phone OTP)
-- Set up Lovable project connected to Supabase
+## What Was Done
+✅ New Supabase project created: `qass-app`
+✅ Project brain repo created: github.com/HkDavdB7/qass-project
+✅ All tracking files set up (PROJECT.md, STAGES.md, DECISIONS.md, SCHEMA.md, BUGS.md)
 
-## Blockers
-- Old Supabase project (uiwfpbsuarwhhfbktitn) is paused/dead
-- Need new Supabase project created
+## Credentials (saved in SUPABASE.md)
+- Project URL: https://jvjcbahocybbdxhkrxaz.supabase.co
+- Anon key: sb_publishable_yatPJ5gqVPH9LTW3igKg-A_LWz-uHJO
+- DB Password: gio9eAdlc0r6aPOq
+- Secret key: starts with sb_secret_5xF8I (retrieve from dashboard)
 
-## Next Actions
-1. Ibrahim creates new Supabase project at supabase.com
-2. Gemini writes the SQL schema
-3. GPT reviews and finalizes schema
-4. Schema gets applied to new Supabase project
-5. Sonnet reviews and approves → Stage 1 ✅
+## Next Actions (Stage 1 completion)
+1. Write full SQL schema (tables + RLS policies)
+2. Run schema in Supabase SQL editor
+3. Enable Phone auth in Supabase Auth settings
+4. Set up Lovable project connected to this Supabase instance
+5. Sonnet reviews schema → approve → Stage 1 ✅
+
+## Lovable Setup Prompt (ready to use)
+Connect to Supabase project: https://jvjcbahocybbdxhkrxaz.supabase.co
+Anon key: sb_publishable_yatPJ5gqVPH9LTW3igKg-A_LWz-uHJO
 
 ## Session Handoff Note
-_When starting a new session, read PROJECT.md + STAGES.md + this file.
-That's all you need. Do not ask Ibrahim to re-explain the project._
+Read PROJECT.md + STAGES.md + this file to get full context.
+Do NOT ask Ibrahim to re-explain the project.
