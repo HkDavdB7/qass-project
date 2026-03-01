@@ -12,8 +12,8 @@
 
 | # | Stage | Status | Notes |
 |---|-------|--------|-------|
-| 1 | Foundation — Supabase schema + project setup | ⬜ | Start here |
-| 2 | Auth + Roles — Phone OTP, 4 user roles, protected routes | ⬜ | |
+| 1 | Foundation — Supabase schema + project setup | ✅ | Completed 2026-03-01. All 9 tables + RLS + triggers live. |
+| 2 | Auth + Roles — Phone OTP, 4 user roles, protected routes | 🔵 | In progress — test mode OTP, Lovable prompts ready |
 | 3 | Customer: Shop Discovery — listing, filters, shop detail | ⬜ | |
 | 4 | Customer: Booking Flow — service → barber → time → confirm | ⬜ | |
 | 5 | Customer: Profile + My Bookings | ⬜ | |
@@ -37,5 +37,7 @@
 ---
 
 ## Stage Log
-<!-- Add entry when a stage completes -->
-<!-- Format: Date | Stage | Agent summary | Issues found -->
+| Date | Stage | Summary | Issues |
+|------|-------|---------|--------|
+| 2026-03-01 | Stage 1 | Schema applied via Monaco JS injection. All 9 tables live, RLS + triggers active. Verified in Table Editor. | None |
+| 2026-03-01 | Stage 2 | Started. Phone OTP test mode + Lovable auth prompts prepared. Pending: Supabase phone provider enable + Lovable build. | None yet |
